@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiemensRefactoringAndCleanCoding", "SiemensRefactoringAndCleanCoding\SiemensRefactoringAndCleanCoding.csproj", "{6E059E31-5F00-4D46-93F1-C73EE0C8BC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringOrCleanCoding.API", "RefactoringOrCleanCoding.API\RefactoringOrCleanCoding.API.csproj", "{145BE84C-DB5C-4B0C-8B8D-741831AD9654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E059E31-5F00-4D46-93F1-C73EE0C8BC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E059E31-5F00-4D46-93F1-C73EE0C8BC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E059E31-5F00-4D46-93F1-C73EE0C8BC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E059E31-5F00-4D46-93F1-C73EE0C8BC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145BE84C-DB5C-4B0C-8B8D-741831AD9654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145BE84C-DB5C-4B0C-8B8D-741831AD9654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145BE84C-DB5C-4B0C-8B8D-741831AD9654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145BE84C-DB5C-4B0C-8B8D-741831AD9654}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CD9AEE7-F3AE-4A68-A36D-DB9F25F713CA}
+	EndGlobalSection
+EndGlobal
