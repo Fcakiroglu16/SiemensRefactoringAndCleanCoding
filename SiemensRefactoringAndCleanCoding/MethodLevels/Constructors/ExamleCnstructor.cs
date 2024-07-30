@@ -12,7 +12,7 @@ namespace SiemensRefactoringAndCleanCoding.MethodLevels.Constructors
         {
             var stock = 20;
 
-            var product = new Product(1, "kalem 1", 100);
+            //var product = new Product(1, "kalem 1", 100);
             var product2 = Product.Create(1, "kalem 2", 200);
         }
     }
@@ -48,7 +48,7 @@ namespace SiemensRefactoringAndCleanCoding.MethodLevels.Constructors
             //business rule
 
 
-            return new Product(id, name, price);
+            return new Product();
         }
     }
 }
