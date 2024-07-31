@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesignPattern.App",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.App", "SOLID.App\SOLID.App.csproj", "{486470FF-2B63-4761-8D83-B5327DEBCC4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.App", "DesignPatterns.App\DesignPatterns.App.csproj", "{AD50ECB6-C6CC-4751-AFEA-AEEDC6CB660E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService1", "WorkerService1\WorkerService1.csproj", "{94ACFE63-B12C-47B9-90BA-5D98A5A13CC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,14 @@ Global
 		{486470FF-2B63-4761-8D83-B5327DEBCC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{486470FF-2B63-4761-8D83-B5327DEBCC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{486470FF-2B63-4761-8D83-B5327DEBCC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD50ECB6-C6CC-4751-AFEA-AEEDC6CB660E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD50ECB6-C6CC-4751-AFEA-AEEDC6CB660E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD50ECB6-C6CC-4751-AFEA-AEEDC6CB660E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD50ECB6-C6CC-4751-AFEA-AEEDC6CB660E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94ACFE63-B12C-47B9-90BA-5D98A5A13CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ACFE63-B12C-47B9-90BA-5D98A5A13CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ACFE63-B12C-47B9-90BA-5D98A5A13CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ACFE63-B12C-47B9-90BA-5D98A5A13CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

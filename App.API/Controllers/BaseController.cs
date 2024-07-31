@@ -9,11 +9,13 @@ namespace App.API.Controllers
     [ApiController]
     public class CustomBaseController : ControllerBase
     {
+        [NonAction]
         public IActionResult CreateActionResult<T>(ServiceResult<T> serviceResult)
         {
             return new ObjectResult(serviceResult) { StatusCode = serviceResult.StatusCode.GetHashCode() };
         }
 
+        [NonAction]
         public IActionResult CreateActionResult(ServiceResult serviceResult)
         {
             return new ObjectResult(serviceResult) { StatusCode = serviceResult.StatusCode.GetHashCode() };

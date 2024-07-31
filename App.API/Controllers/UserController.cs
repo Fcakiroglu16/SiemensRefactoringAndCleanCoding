@@ -8,6 +8,7 @@ namespace App.API.Controllers
     [ApiController]
     public class UserController(IUserService userService) : CustomBaseController
     {
+        [HttpPost]
         public async Task<IActionResult> Create(UserCreateRequestDto request) =>
             CreateActionResult(await userService.Create(request));
     }

@@ -1,9 +1,30 @@
+using App.API.AdapterDesignPattern;
 using Application;
 using Application.Decorators;
 using Data;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Primitives;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddScoped<IImageProcess>(sp =>
+{
+    var httpContextAccessor = sp.GetRequiredService<IHttpContextAccessor>();
+
+    var tenantId= httpContextAccessor.HttpContext.Request.Headers.TryGetValue("tenantId",out StringValues tenantType)
+    {
+
+    }
+
+
+    if (httpContextAccessor.HttpContext.Request.Query.ContainsKey("x"))
+    {
+        return new ImageProcess();
+    }
+
+    return new LazziyaImageProcessAdapter();
+});
 
 // Add services to the container.
 
@@ -15,7 +36,6 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddMemoryCache();
 
 builder.Services.AddHttpContextAccessor();
-
 
 builder.Services.AddScoped<IProductService>(sp =>
 {
