@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instrastructure", "Instrast
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{E4FBEF4C-AC9C-445B-9CD7-34F01185A80F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignPattern.App", "ObserverDesignPattern.App\ObserverDesignPattern.App.csproj", "{1502EBDA-2777-446D-925F-1D9231C52B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesignPattern.App", "ObserverDesignPattern.App\ObserverDesignPattern.App.csproj", "{1502EBDA-2777-446D-925F-1D9231C52B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.App", "SOLID.App\SOLID.App.csproj", "{486470FF-2B63-4761-8D83-B5327DEBCC4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{1502EBDA-2777-446D-925F-1D9231C52B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1502EBDA-2777-446D-925F-1D9231C52B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1502EBDA-2777-446D-925F-1D9231C52B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486470FF-2B63-4761-8D83-B5327DEBCC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486470FF-2B63-4761-8D83-B5327DEBCC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486470FF-2B63-4761-8D83-B5327DEBCC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486470FF-2B63-4761-8D83-B5327DEBCC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
